@@ -66,6 +66,7 @@ on_login {
     // Game-related logic.
     player.sendRunEnergy(player.runEnergy.toInt())
     player.message("Welcome to ${world.gameContext.name}.", ChatMessageType.GAME_MESSAGE)
+    player.message("Thank you for joining us. We're still in development.", ChatMessageType.GAME_MESSAGE)
 }
 
 /**
