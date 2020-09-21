@@ -15289,7 +15289,7 @@ object Objs {
     const val STASH_MASTER_28957 = 28957
     const val STAIRS_29061 = 29061
     const val LADDER_29062 = 29062
-    const val REWARD_CHEST = 29063
+    /*const val REWARD_CHEST = 29063*/
     const val SCOREBOARD_29064 = 29064
     const val PLINTH_29065 = 29065
     const val DOOR_29066 = 29066
