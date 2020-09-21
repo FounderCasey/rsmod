@@ -39,7 +39,7 @@ object RunEnergy {
                 if (p.timers.has(STAMINA_BOOST)) {
                     decrement *= 0.3
                 }
-                p.runEnergy = Math.max(0.0, (p.runEnergy - decrement))
+                p.runEnergy = Math.max(0.0, (p.runEnergy - (decrement * 0.1)))
                 if (p.runEnergy <= 0) {
                     p.varps.setState(RUN_ENABLED_VARP, 0)
                 }

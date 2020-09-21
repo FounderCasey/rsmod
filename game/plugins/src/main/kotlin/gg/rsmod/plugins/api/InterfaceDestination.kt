@@ -15,6 +15,8 @@ enum class InterfaceDestination(val interfaceId: Int, val fixedChildId: Int, val
 
     XP_COUNTER(interfaceId = 122, fixedChildId = 17, resizeChildId = 7, resizeListChildId = 7),
 
+//    CLUE_REWARD(interfaceId = 73, fixedChildId = 17, resizeChildId = 7, resizeListChildId = 5),
+
     SKILLS(interfaceId = 320, fixedChildId = 67, resizeChildId = 69, resizeListChildId = 69),
 
     QUEST(interfaceId = 399, fixedChildId = 68, resizeChildId = 70, resizeListChildId = 70),
@@ -62,7 +64,7 @@ enum class InterfaceDestination(val interfaceId: Int, val fixedChildId: Int, val
         ATTACK, SKILLS, QUEST, INVENTORY, EQUIPMENT,
         PRAYER, MAGIC, CLAN_CHAT, ACCOUNT_MANAGEMENT,
         SOCIAL, LOG_OUT, SETTINGS, EMOTES, MUSIC, PVP_OVERLAY,
-        USERNAME, MINI_MAP, XP_COUNTER, WORLD_MAP -> true
+        USERNAME, MINI_MAP, XP_COUNTER, /*CLUE_REWARD,*/ WORLD_MAP -> true
         else -> false
     }
 

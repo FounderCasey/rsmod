@@ -188,7 +188,7 @@ open class Player(world: World) : Pawn(world) {
 
     var gameMode = 0
 
-    var xpRate = 1.0
+    var xpRate = 750.0
 
     /**
      * The last cycle that this client has received the MAP_BUILD_COMPLETE

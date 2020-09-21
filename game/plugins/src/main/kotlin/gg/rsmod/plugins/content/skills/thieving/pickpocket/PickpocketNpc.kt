@@ -412,7 +412,7 @@ enum class PickpocketNpc(val npcIds: IntArray, val experience: Double, val reqLe
             damage = 4..4,
             stunTicks = 10
     ),
-    ELF(
+    /*ELF(
             npcIds = intArrayOf(
                     Npcs.GOREU, Npcs.YSGAWYN, Npcs.ARVEL, Npcs.MAWRTH, Npcs.KELYN, Npcs.SIGMUND_5322, Npcs.SANDY
             ),
@@ -430,7 +430,7 @@ enum class PickpocketNpc(val npcIds: IntArray, val experience: Double, val reqLe
             ),
             damage = 5..5,
             stunTicks = 10
-    ),
+    ),*/
     TZHAAR_HUR(
             npcIds = intArrayOf(
                     Npcs.TZHAARHUR_7682,

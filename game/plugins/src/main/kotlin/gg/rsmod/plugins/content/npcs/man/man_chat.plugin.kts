@@ -9,6 +9,20 @@ MEN.forEach { man ->
     on_npc_option(npc = man, option = "talk-to") {
         player.queue { chat(this) }
     }
+
+    npc_drop_table(npc = man) {
+        val map = HashMap<Int, Int>()
+        var random = world.random(1..10)
+        map[Items.BONES] = 1
+        println(random)
+        if(random % 2 == 0) {
+            map[Items.COINS_995] = 100
+        }
+        if (random % 1 == 0) {
+            map[Items.CLUE_SCROLL_EASY] = 1
+        }
+        map
+    }
 }
 
 suspend fun chat(it: QueueTask) {
