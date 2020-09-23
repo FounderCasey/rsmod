@@ -53,9 +53,14 @@ on_command("reboot", Privilege.ADMIN_POWER) {
     }
 }
 
-on_command("home", Privilege.ADMIN_POWER) {
+on_command("home") {
     val home = world.gameContext.home
     player.moveTo(home)
+}
+
+on_command("skill") {
+    player.animate(714)
+    player.moveTo(2827, 3344)
 }
 
 on_command("obank", Privilege.ADMIN_POWER) {

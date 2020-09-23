@@ -9,7 +9,7 @@ import mu.KLogging
  *
  * @author Tom <rspsmods@gmail.com>
  */
-class InterfaceSet(private val listener: InterfaceListener) {
+class  InterfaceSet(private val listener: InterfaceListener) {
 
     /**
      * A map of currently visible interfaces.
