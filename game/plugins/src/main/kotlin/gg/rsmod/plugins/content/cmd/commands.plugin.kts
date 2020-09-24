@@ -59,8 +59,11 @@ on_command("home") {
 }
 
 on_command("skill") {
-    player.animate(714)
     player.moveTo(2827, 3344)
+}
+
+on_command("barrows") {
+    player.moveTo(3565, 3313)
 }
 
 on_command("obank", Privilege.ADMIN_POWER) {
